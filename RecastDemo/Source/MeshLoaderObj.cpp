@@ -24,7 +24,7 @@
 #include <math.h>
 
 rcMeshLoaderObj::rcMeshLoaderObj() :
-	m_scale(1.0f),
+	m_scale(0.01f),
 	m_verts(0),
 	m_tris(0),
 	m_normals(0),
